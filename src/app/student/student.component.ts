@@ -20,11 +20,11 @@ export class StudentComponent implements OnInit{
   public students: any = [];
 
   buildStudentList() {
-    let student1 = new Student(3294451, "Gustavo","Análise e Desennvolvimento de Sistemas", new Date(1997,9,13));
-    let student2 = new Student(4214512, "Ricardo","Administração", new Date(1990,2,18));
-    let student3 = new Student(3451455, "Aline","Nutrição", new Date(1990,2,18));
-    let student4 = new Student(1821385, "Carlos","Marketing Digital", new Date(1990,2,18));
-    let student5 = new Student(2545486, "Vanessa","Desing Gráfico", new Date(1990,2,18));
+    let student1 = new Student(3294451, "Gustavo","Análise e Desennvolvimento de Sistemas", new Date(1997,8,13));
+    let student2 = new Student(4214512, "Ricardo","Administração", new Date(1990,1,18));
+    let student3 = new Student(3451455, "Aline","Nutrição", new Date(1994,4,28));
+    let student4 = new Student(1821385, "Carlos","Marketing Digital", new Date(1993,2,3));
+    let student5 = new Student(2545486, "Vanessa","Desing Gráfico", new Date(2000,10,5));
 
     this._studentList.push(student1);
     this._studentList.push(student2);
